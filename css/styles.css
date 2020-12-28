@@ -1,0 +1,30 @@
+:root {
+  --white: rgba(255, 255, 255, 1);
+  --black: rgba(0, 0, 0, 1);
+  --l-gray: rgba(196, 196, 196, 1);
+  --d-gray: rgb(169, 169, 169);
+  --orange: rgba(242, 153, 74, 1);
+  --mt: "Montserrat", sans-serif;
+  --pd: "Playfair Display", serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  position: relative;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  width: calc(100% - (clamp(1px, 6vw, 200px) * 2));
+  margin: auto;
+}
