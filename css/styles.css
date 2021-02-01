@@ -8,8 +8,6 @@
   --base-font: 1.6rem;
   --white: rgba(255, 255, 255, 1);
   --clr-light-black: rgba(0, 0, 0, 0.1);
-  --l-gray: rgba(196, 196, 196, 1);
-  --d-gray: rgb(169, 169, 169);
   --clr-gray-1: rgb(79, 79, 79);
   --clr-gray-2: rgb(51, 51, 51);
   --clr-gray-3: rgb(189, 189, 189);
@@ -192,7 +190,7 @@ div.main {
 /* CHECKED CARD */
 
 .cb-container .cb-input:checked + .check {
-  background: var(--clr-orange);
+  background: var(--clr-orange) url("../assets/images/check.svg");
   background-repeat: no-repeat;
   background-position: center;
 }
